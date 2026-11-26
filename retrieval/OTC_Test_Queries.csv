@@ -1,0 +1,11 @@
+query_id,need,query
+Q1,A person is looking for an over-the-counter medicine to relieve fever.,medicines for fever
+Q2,A person wants to find an OTC medicine that provides relief from coughing.,medicines for cough
+Q3,A person looking for a pain reliever containing ibuprofen as the active ingredient.,pain reliever containing ibuprofen
+Q4,A person wants a pain relief medicine available in capsule form rather than tablets/liquids.,pain reliever in form of capsules
+Q5,A person wants to find an OTC medicine that is less likely to cause stomach irritation.,medicines avoiding stomach irritation
+Q6,A person wants one OTC medicine that can relieve both pain and fever.,medicines for both pain and fever
+Q7,A person wants to find safety warnings associated with OTC allergy medicines.,allergy safety warnings
+Q8,"A person has a high body temperature, muscle pain, and an itchy throat and wants medicine that addresses these symptoms.",treat body temperature and body pain and soothe throat
+Q9,A person is experiencing pain and stomach irritation and wants relief from both conditions.,relief from pain and stomach irritation
+Q10,A person is experiencing itchy skin rashes and watery eyes and wants medicine that addresses both symptoms.,medicines for allergy

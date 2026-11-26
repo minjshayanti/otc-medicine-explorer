@@ -1,0 +1,5 @@
+Query_ID,Facet_Conditions,Medicines_Returned,Website_Results,Matches_Website
+Q2,cough,57,57,True
+Q4,pain AND Capsules,6,6,True
+Q6,pain OR fever,68,68,True
+Q9,pain OR upset stomach,71,71,True

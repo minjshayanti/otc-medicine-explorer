@@ -1,0 +1,203 @@
+Groups,Item,Product,Intended Use,Intended User,Dosage Form,Brand Type,Active Ingredient,Uses,Selected Warnings,Selected texts (Uses + Warnings),Initial Codes,Intended Use Tags,Intended User Standardized,Dosage Form Family,R01_Organ_Toxicity,R02_Bleeding,R03_Cardiovascular,R04_Allergic_Reactions,R05_Neurological_Behavioral,R06_Skin_Local_Tissue,R07_Gastrointestinal,R08_Other_Documented_Risk,R09_Risk_Not_Specified,Risk_Codes,Classification_Source,query_id,rank,relevance
+Cough Cold & Flu,61,Vicks DayQuil Cold & Flu,Cold; Flu; Cough; Fever; Pain; Congestion,Adult / 12+,Liquid,National brand,Acetaminophen; Dextromethorphan HBr; Phenylephrine HCl,"Relieves nasal congestion, cough, sore throat, headache, minor aches/pains 
+and fever from cold/flu.","Acetaminophen can cause severe liver damage if maximum 
+dose is exceeded or combined with other acetaminophen drugs; 
+avoid certain MAOI medications.","Relieves congestion, cough, sore throat, headache, aches and fever. 
+Excessive acetaminophen use may cause liver damage; avoid MAOI medications.","relieving multiple cold symptoms; suppressing cough; reducing fever; 
+warning against excessive use; restricting medication combinations",cold; congestion; cough; fever; flu; pain,Adult / 12+,Liquids,1,0,0,0,0,0,0,0,0,R01,"AI-Assisted, Human-Verified",Q2,1,1
+Cough Cold & Flu,62,Vicks NyQuil Cold & Flu LiquiCaps,Cold; Flu; Cough; Fever; Pain; Runny nose/Sneezing,Adult / 12+,Liquid-filled capsule,National brand,Acetaminophen 325 mg; Dextromethorphan HBr 15 mg; Doxylamine succinate 6.25 mg,"Relieves cough, sore throat, headache, aches/pains, fever, 
+runny nose and sneezing associated with cold/flu.","Acetaminophen overdose/combination can cause severe liver 
+damage; may cause marked drowsiness, which can increase with 
+alcohol or sedatives.","Relieves cough, sore throat, pain, fever, runny nose and sneezing. 
+Excessive acetaminophen use may cause liver damage; alcohol and sedatives 
+increase drowsiness.","relieving multiple cold symptoms; suppressing cough; reducing fever; 
+warning against excessive use; highlighting sedation risks",cold; cough; fever; flu; pain; runny nose; sneezing,Adult / 12+,Capsules,1,0,0,0,1,0,0,0,0,R01; R05,Machine Predicted,Q2,2,1
+Cough Cold & Flu,63,Theraflu Flu Relief Max Strength Daytime,Cold; Flu; Cough; Fever; Pain,Adult / 12+,Powder for oral solution,National brand,Acetaminophen 1000 mg; Dextromethorphan HBr 30 mg,"Relieves headache, aches/pains, cough and sore throat from cold/flu; 
+reduces fever.","Acetaminophen can cause severe liver damage if overused/combined 
+with other acetaminophen drugs; severe/persistent sore throat 
+requires medical attention.","Relieves headache, body aches, cough, sore throat and fever. Excessive acetaminophen 
+use may cause liver damage; persistent sore throat requires medical attention.","relieving flu-related discomfort; suppressing cough; reducing fever; 
+warning against excessive use; directing medical consultation",cold; cough; fever; flu; pain,Adult / 12+,Powders and Granules,1,0,0,0,0,0,0,0,0,R01,"AI-Assisted, Human-Verified",Q2,3,1
+Cough Cold & Flu,64,Mucinex DM,Cough; Chest congestion,Adult / 12+,Extended-release tablet,National brand,Guaifenesin; Dextromethorphan HBr,Relieves cough and loosens phlegm to make coughs more productive.,"Ask a doctor about persistent/chronic cough or cough with 
+excessive phlegm; avoid use with MAOIs.","Relieves cough and loosens mucus. Chronic cough or excessive phlegm 
+requires medical consultation; avoid MAOIs.","suppressing cough; loosening mucus; identifying persistent 
+symptoms; restricting medication combinations",chest congestion; cough,Adult / 12+,Tablets and Caplets,0,0,0,0,0,0,0,0,1,R09,Machine Predicted,Q2,4,1
+Cough Cold & Flu,65,Children's Dimetapp Cold & Cough,Cold; Cough; Runny nose; Congestion,Child,Liquid,National brand,Brompheniramine maleate; Dextromethorphan HBr; Phenylephrine HCl,"Relieves nasal congestion, runny nose, cough, sneezing, 
+itchy/watery eyes and nose/throat itching.","Do not use to sedate or make a child sleepy; do not use with 
+MAOIs or within 2 weeks of stopping one.","Relieves congestion, cough, runny nose, sneezing and itchy eyes. 
+Do not use to make children sleepy; avoid MAOIs.","relieving multiple cold symptoms; suppressing cough; discouraging 
+sedation of children; restricting medication combinations",cold; congestion; cough; runny nose,Child,Liquids,0,0,0,0,0,0,0,0,1,R09,"AI-Assisted, Human-Verified",Q2,5,1
+Cough Cold & Flu,66,Children's Mucinex Cough,Cough; Chest congestion,Child,Liquid,National brand,Dextromethorphan HBr; Guaifenesin,"Relieves cough and chest congestion by loosening phlegm and 
+reducing cough.","Avoid with MAOIs; ask a doctor about chronic cough or cough 
+with excessive phlegm.","Relieves cough and chest congestion by loosening mucus. 
+Avoid MAOIs; consult a doctor for chronic cough or excessive phlegm","suppressing cough; loosening mucus; restricting 
+medication combinations; identifying persistent symptoms",chest congestion; cough,Child,Liquids,0,0,0,0,0,0,0,0,1,R09,Machine Predicted,Q2,6,1
+Cough Cold & Flu,67,CVS Health Daytime Cold & Flu Relief,Cold; Flu; Cough; Fever; Pain; Congestion,Adult / 12+,Liquid,Store brand,Acetaminophen; Dextromethorphan HBr; Phenylephrine HCl,"Relieves cough, minor aches/pains, sore throat, headache and 
+fever associated with cold/flu.","Acetaminophen can cause severe liver damage if maximum dose 
+is exceeded or combined with other acetaminophen drugs; 
+avoid MAOIs.","Relieves cough, headache, sore throat, body aches and fever. 
+Excessive acetaminophen use may cause liver damage; avoid MAOIs","relieving multiple cold symptoms; suppressing cough; 
+reducing fever; warning against excessive use; 
+restricting medication combinations",cold; congestion; cough; fever; flu; pain,Adult / 12+,Liquids,1,0,0,0,0,0,0,0,0,R01,Machine Predicted,Q2,7,1
+Cough Cold & Flu,68,Walgreens Daytime Cold & Flu,Cold; Flu; Cough; Fever; Pain; Congestion,Adult / 12+,Softgel,Store brand,Acetaminophen; Dextromethorphan HBr; Phenylephrine HCl,"Relieves common cold/flu symptoms including cough, aches/pains,
+headache, sore throat, fever and/or congestion depending on formulation.","Acetaminophen-containing formulation carries liver-damage 
+risk; avoid use with MAOIs.","Relieves cough, pain, fever and congestion. 
+Acetaminophen overdose may cause liver damage; avoid MAOIs.","relieving multiple cold symptoms; suppressing cough; 
+reducing fever; warning against excessive use; 
+restricting medication combinations",cold; congestion; cough; fever; flu; pain,Adult / 12+,Capsules,1,0,0,0,0,0,0,0,0,R01,Machine Predicted,Q2,8,1
+Cough Cold & Flu,69,Equate Daytime Cold & Flu,Cold; Flu; Cough; Fever; Pain; Congestion,Adult / 12+,Liquid,Store brand,Acetaminophen 325 mg; Dextromethorphan HBr 10 mg; Phenylephrine HCl 5 mg,"Relieves aches/pains, headache, sore throat, fever, nasal congestion 
+and cough from cold/flu.","Acetaminophen can cause severe liver damage if overused 
+or combined with other acetaminophen drugs; severe/persistent 
+sore throat requires medical attention.","Relieves aches, headache, sore throat, fever, congestion and cough. 
+Excessive acetaminophen use may cause liver damage; 
+persistent sore throat requires medical attention.","relieving multiple cold symptoms; suppressing cough; 
+reducing fever; warning against excessive use; directing 
+medical consultation",cold; congestion; cough; fever; flu; pain,Adult / 12+,Liquids,1,0,0,0,0,0,0,0,0,R01,"AI-Assisted, Human-Verified",Q2,9,1
+Cough Cold & Flu,70,Equate Nighttime Cold & Flu,Cold; Flu; Cough; Fever; Pain; Congestion; Runny nose/Sneezing,Adult / 12+,Liquid,Store brand,"Acetaminophen 650 mg; Dextromethorphan HBr 20 mg; Doxylamine succinate 12.5 mg; 
+Phenylephrine HCl 10 mg","Relieves nighttime cold/flu symptoms including pain, fever, cough, 
+congestion/runny nose and sneezing.","Acetaminophen carries liver-damage risk; nighttime formula 
+may cause marked drowsiness, increased by alcohol/sedatives.","Relieves cough, pain, fever, congestion, runny nose and sneezing. 
+Excessive acetaminophen use may cause liver damage; 
+alcohol and sedatives increase drowsiness.","relieving multiple cold symptoms; suppressing cough; 
+reducing fever; warning against excessive use; highlighting sedation risks",cold; congestion; cough; fever; flu; pain; runny nose; sneezing,Adult / 12+,Liquids,1,0,0,0,1,0,0,0,0,R01; R05,Machine Predicted,Q2,10,1
+Pain and Fever,13,Tylenol Rapid Release Gels,Pain; Fever,Adult,Gelcap,National brand,Acetaminophen,Minor aches and fever,Severe liver damage may occur with excessive use or when combined with other acetaminophen-containing medicines; severe skin reactions are possible.,Minor aches and fever. Severe liver damage may occur with excessive use or when combined with other acetaminophen-containing medicines; severe skin reactions are possible.,reducing fever; warning about liver damage; preventing ingredient overlap; highlighting age-related precautions,fever; pain,Adult,Capsules,1,0,0,0,0,1,0,0,0,R01; R06,Machine Predicted,Q4,1,1
+Pain and Fever,14,Advil Liqui-Gels,Pain; Fever,Adult,Liquid-filled capsule,National brand,Ibuprofen,Minor aches and fever,"NSAID may cause severe stomach bleeding; use may increase the risk of heart attack, heart failure or stroke.","Minor aches and fever. NSAID may cause severe stomach bleeding; use may increase the risk of heart attack, heart failure or stroke.",reducing fever; warning about bleeding risk; highlighting cardiovascular risks,fever; pain,Adult,Capsules,0,1,1,0,0,0,0,0,0,R02; R03,"AI-Assisted, Human-Verified",Q4,2,1
+Pain and Fever,16,Advil Migraine,Pain; Fever,Adult,Liquid-filled capsule,National brand,Ibuprofen,Migraine headache relief,"NSAID may cause severe stomach bleeding; may increase risk of heart attack, heart failure or stroke.","Migraine headache relief. NSAID may cause severe stomach bleeding; may increase risk of heart attack, heart failure or stroke.",relieving headaches; managing migraine symptoms; warning about bleeding risk; highlighting cardiovascular risks,fever; pain,Adult,Capsules,0,1,1,0,0,0,0,0,0,R02; R03,"AI-Assisted, Human-Verified",Q4,3,1
+Pain and Fever,19,Aleve Liquid Gels,Pain; Fever,Adult,Liquid-filled capsule,National brand,Naproxen sodium,Minor aches and fever,"NSAID may cause severe stomach bleeding; use may increase the risk of heart attack, heart failure or stroke.","Minor aches and fever. NSAID may cause severe stomach bleeding; use may increase the risk of heart attack, heart failure or stroke.",reducing fever; warning about bleeding risk; highlighting cardiovascular risks,fever; pain,Adult,Capsules,0,1,1,0,0,0,0,0,0,R02; R03,"AI-Assisted, Human-Verified",Q4,4,1
+Cough Cold & Flu,62,Vicks NyQuil Cold & Flu LiquiCaps,Cold; Flu; Cough; Fever; Pain; Runny nose/Sneezing,Adult / 12+,Liquid-filled capsule,National brand,Acetaminophen 325 mg; Dextromethorphan HBr 15 mg; Doxylamine succinate 6.25 mg,"Relieves cough, sore throat, headache, aches/pains, fever, 
+runny nose and sneezing associated with cold/flu.","Acetaminophen overdose/combination can cause severe liver 
+damage; may cause marked drowsiness, which can increase with 
+alcohol or sedatives.","Relieves cough, sore throat, pain, fever, runny nose and sneezing. 
+Excessive acetaminophen use may cause liver damage; alcohol and sedatives 
+increase drowsiness.","relieving multiple cold symptoms; suppressing cough; reducing fever; 
+warning against excessive use; highlighting sedation risks",cold; cough; fever; flu; pain; runny nose; sneezing,Adult / 12+,Capsules,1,0,0,0,1,0,0,0,0,R01; R05,Machine Predicted,Q4,5,1
+Cough Cold & Flu,68,Walgreens Daytime Cold & Flu,Cold; Flu; Cough; Fever; Pain; Congestion,Adult / 12+,Softgel,Store brand,Acetaminophen; Dextromethorphan HBr; Phenylephrine HCl,"Relieves common cold/flu symptoms including cough, aches/pains,
+headache, sore throat, fever and/or congestion depending on formulation.","Acetaminophen-containing formulation carries liver-damage 
+risk; avoid use with MAOIs.","Relieves cough, pain, fever and congestion. 
+Acetaminophen overdose may cause liver damage; avoid MAOIs.","relieving multiple cold symptoms; suppressing cough; 
+reducing fever; warning against excessive use; 
+restricting medication combinations",cold; congestion; cough; fever; flu; pain,Adult / 12+,Capsules,1,0,0,0,0,0,0,0,0,R01,Machine Predicted,Q4,6,1
+Pain and Fever,1,Tylenol Extra Strength,Pain; Fever,Adult,Caplet,National brand,Acetaminophen 500 mg,"Relieves minor aches/pains from cold, headache, backache, 
+arthritis, toothache, muscular aches and menstrual cramps; 
+reduces fever.","Severe liver damage possible with excessive use or other 
+acetaminophen-containing drugs; may cause severe skin reactions","Relieves headaches, backaches, muscular aches, arthritis pain, toothaches, 
+menstrual cramps and fever. Excessive use or combining acetaminophen 
+products may cause liver damage; severe skin reactions may occur.","relieving multiple types of pain; reducing fever; 
+warning against excessive use; preventing ingredient overlap; 
+highlighting skin reactions",fever; pain,Adult,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,Machine Predicted,Q6,1,1
+Pain and Fever,2,Advil,Pain; Fever,Adult,Tablet/Caplet,National brand,Ibuprofen 200 mg,"Relieves headache, toothache, backache, menstrual cramps, 
+cold-related pain, muscular aches and arthritis pain; reduces fever.","NSAID may cause severe stomach bleeding; may increase risk of 
+heart attack, heart failure or stroke","Relieves minor aches, pains and fever. NSAIDs may cause severe 
+stomach bleeding and increase cardiovascular risks.","relieving everyday pain; reducing fever; warning about 
+stomach bleeding; highlighting cardiovascular risks",fever; pain,Adult,Tablets and Caplets,0,1,1,0,0,0,0,0,0,R02; R03,"AI-Assisted, Human-Verified",Q6,2,1
+Pain and Fever,3,Aleve Back & Muscle Pain,Pain; Fever,Adult,Caplet,National brand,Naproxen sodium 220 mg,"Relieves backache, muscular aches, arthritis pain, menstrual 
+cramps, headache, toothache and cold-related pain; reduces fever.","NSAID may cause severe stomach bleeding; naproxen may cause severe 
+allergic reactions, especially with aspirin allergy.","Relieves backache, muscular aches, arthritis pain and other minor pains; reduces 
+fever. NSAIDs may cause stomach bleeding and allergic reactions.","targeting muscle and back pain; relieving other pain 
+conditions; reducing fever; warning about stomach bleeding; 
+identifying allergy risks",fever; pain,Adult,Tablets and Caplets,0,1,0,0,0,0,0,0,0,R02,Machine Predicted,Q6,3,1
+Pain and Fever,4,Bayer Genuine Aspirin,Pain; Fever,Adult*,Tablet,National brand,Aspirin 325 mg,"Relieves headache, muscle pain, toothache, menstrual pain, 
+cold-related pain/fever and arthritis pain.","Children/teens recovering from chickenpox or flu-like illness should not use 
+because of Reye's syndrome risk; may cause severe stomach bleeding.","Relieves headache, muscle pain, toothache, menstrual pain, arthritis pain and 
+fever. Children and teenagers recovering from viral illness risk 
+Reye's syndrome; stomach bleeding may occur.","relieving multiple types of pain; reducing fever; restricting use 
+during viral illnesses; warning about stomach bleeding",fever; pain,Adult*,Tablets and Caplets,0,1,0,0,0,0,0,1,0,R02; R08,"AI-Assisted, Human-Verified",Q6,4,1
+Pain and Fever,5,Children's Tylenol,Pain; Fever,Child,Chewable tablet,National brand,Acetaminophen 160 mg,"Relieves pain from cold, flu, headache, sore throat and toothache; 
+reduces fever.","Severe liver damage possible if child exceeds 5 doses/day or uses other 
+acetaminophen products; may cause severe skin reactions.","Relieves childhood aches, sore throat, toothache, headache and fever. Exceeding 
+recommended doses or combining acetaminophen products can 
+cause liver damage; severe skin reactions may occur.","relieving childhood pain; reducing fever; limiting excessive dosing; 
+preventing ingredient overlap; highlighting skin reactions",fever; pain,Child,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,"AI-Assisted, Human-Verified",Q6,5,1
+Pain and Fever,6,Children's Motrin,Pain; Fever,Child (2–11),Oral suspension,National brand,Ibuprofen 100 mg/5 mL,"Relieves pain from cold, flu, sore throat, headache and toothache; 
+reduces fever.","NSAID may cause severe stomach bleeding; ibuprofen 
+may cause severe allergic reactions.","Relieves pain from cold, flu, headache, sore throat and toothache; reduces 
+fever. NSAIDs may cause stomach bleeding or allergic reactions.","relieving childhood pain; reducing fever; warning 
+about stomach bleeding; identifying allergy risks",fever; pain,Child (2–11),Liquids,0,1,1,0,0,0,0,0,0,R02; R03,Machine Predicted,Q6,6,1
+Pain and Fever,7,Children's Motrin,Pain; Fever,Child (2–11),Chewable tablet,National brand,Ibuprofen 100 mg,"Relieves pain from cold, flu, sore throat, headache and toothache; 
+reduces fever.","NSAID may cause severe stomach bleeding; NSAIDs may 
+increase cardiovascular risks.","Relieves childhood pain and fever. NSAIDs may cause stomach 
+bleeding and cardiovascular complications.","relieving childhood pain; reducing fever; warning 
+about stomach bleeding; highlighting cardiovascular risks",fever; pain,Child (2–11),Tablets and Caplets,0,1,1,0,0,0,0,0,0,R02; R03,"AI-Assisted, Human-Verified",Q6,7,1
+Pain and Fever,8,CVS Acetaminophen,Pain; Fever,Adult,Caplet,Store brand,Acetaminophen 500 mg,"Relieves common minor aches/pains including headache, backache, 
+arthritis, toothache, muscular aches and menstrual cramps; reduces 
+fever.","Severe liver damage possible with excessive use,
+ other acetaminophen drugs or heavy alcohol use;
+ may cause severe skin reactions.","Relieves headache, backache, arthritis pain, muscular aches, 
+toothache, menstrual cramps and fever. Excessive acetaminophen 
+use or combining products can cause liver damage; severe skin reactions may occur.","relieving multiple types of pain; reducing fever; 
+warning against excessive use; preventing ingredient overlap; 
+highlighting skin reactions",fever; pain,Adult,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,Machine Predicted,Q6,8,1
+Pain and Fever,9,Walgreens Ibuprofen 200,Pain; Fever,Adult/12+,Caplet,Store brand,Ibuprofen 200 mg,"Relieves headache, muscular aches, arthritis pain, toothache, 
+backache, cold-related pain and menstrual cramps; reduces fever.","NSAID may cause severe stomach bleeding; 
+may increase risk of heart attack, heart failure or stroke.","Relieves minor aches, pains and fever. NSAIDs may cause stomach 
+bleeding and cardiovascular complications.","relieving everyday pain; reducing fever; warning about 
+stomach bleeding; highlighting cardiovascular risks",fever; pain,Adult / 12+,Tablets and Caplets,0,1,1,0,0,0,0,0,0,R02; R03,Machine Predicted,Q6,9,1
+Pain and Fever,10,Equate Pain Reliever,Pain; Fever,Adult,Caplet,Store brand,Acetaminophen 500 mg,"Relieves common minor aches/pains including headache, 
+backache, arthritis, muscular aches, toothache and menstrual cramps; 
+reduces fever.","Severe liver damage possible with excessive 
+use or other acetaminophen-containing drugs; may 
+cause severe skin reactions.","Relieves minor aches, pains and fever. Excessive acetaminophen use or 
+combining products may cause liver damage; severe skin reactions may occur.","relieving everyday pain; reducing fever; warning 
+against excessive use; preventing ingredient overlap; highlighting skin reactions",fever; pain,Adult,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,"AI-Assisted, Human-Verified",Q6,10,1
+Pain and Fever,1,Tylenol Extra Strength,Pain; Fever,Adult,Caplet,National brand,Acetaminophen 500 mg,"Relieves minor aches/pains from cold, headache, backache, 
+arthritis, toothache, muscular aches and menstrual cramps; 
+reduces fever.","Severe liver damage possible with excessive use or other 
+acetaminophen-containing drugs; may cause severe skin reactions","Relieves headaches, backaches, muscular aches, arthritis pain, toothaches, 
+menstrual cramps and fever. Excessive use or combining acetaminophen 
+products may cause liver damage; severe skin reactions may occur.","relieving multiple types of pain; reducing fever; 
+warning against excessive use; preventing ingredient overlap; 
+highlighting skin reactions",fever; pain,Adult,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,Machine Predicted,Q9,1,0
+Pain and Fever,2,Advil,Pain; Fever,Adult,Tablet/Caplet,National brand,Ibuprofen 200 mg,"Relieves headache, toothache, backache, menstrual cramps, 
+cold-related pain, muscular aches and arthritis pain; reduces fever.","NSAID may cause severe stomach bleeding; may increase risk of 
+heart attack, heart failure or stroke","Relieves minor aches, pains and fever. NSAIDs may cause severe 
+stomach bleeding and increase cardiovascular risks.","relieving everyday pain; reducing fever; warning about 
+stomach bleeding; highlighting cardiovascular risks",fever; pain,Adult,Tablets and Caplets,0,1,1,0,0,0,0,0,0,R02; R03,"AI-Assisted, Human-Verified",Q9,2,0
+Pain and Fever,3,Aleve Back & Muscle Pain,Pain; Fever,Adult,Caplet,National brand,Naproxen sodium 220 mg,"Relieves backache, muscular aches, arthritis pain, menstrual 
+cramps, headache, toothache and cold-related pain; reduces fever.","NSAID may cause severe stomach bleeding; naproxen may cause severe 
+allergic reactions, especially with aspirin allergy.","Relieves backache, muscular aches, arthritis pain and other minor pains; reduces 
+fever. NSAIDs may cause stomach bleeding and allergic reactions.","targeting muscle and back pain; relieving other pain 
+conditions; reducing fever; warning about stomach bleeding; 
+identifying allergy risks",fever; pain,Adult,Tablets and Caplets,0,1,0,0,0,0,0,0,0,R02,Machine Predicted,Q9,3,0
+Pain and Fever,4,Bayer Genuine Aspirin,Pain; Fever,Adult*,Tablet,National brand,Aspirin 325 mg,"Relieves headache, muscle pain, toothache, menstrual pain, 
+cold-related pain/fever and arthritis pain.","Children/teens recovering from chickenpox or flu-like illness should not use 
+because of Reye's syndrome risk; may cause severe stomach bleeding.","Relieves headache, muscle pain, toothache, menstrual pain, arthritis pain and 
+fever. Children and teenagers recovering from viral illness risk 
+Reye's syndrome; stomach bleeding may occur.","relieving multiple types of pain; reducing fever; restricting use 
+during viral illnesses; warning about stomach bleeding",fever; pain,Adult*,Tablets and Caplets,0,1,0,0,0,0,0,1,0,R02; R08,"AI-Assisted, Human-Verified",Q9,4,0
+Pain and Fever,5,Children's Tylenol,Pain; Fever,Child,Chewable tablet,National brand,Acetaminophen 160 mg,"Relieves pain from cold, flu, headache, sore throat and toothache; 
+reduces fever.","Severe liver damage possible if child exceeds 5 doses/day or uses other 
+acetaminophen products; may cause severe skin reactions.","Relieves childhood aches, sore throat, toothache, headache and fever. Exceeding 
+recommended doses or combining acetaminophen products can 
+cause liver damage; severe skin reactions may occur.","relieving childhood pain; reducing fever; limiting excessive dosing; 
+preventing ingredient overlap; highlighting skin reactions",fever; pain,Child,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,"AI-Assisted, Human-Verified",Q9,5,0
+Pain and Fever,6,Children's Motrin,Pain; Fever,Child (2–11),Oral suspension,National brand,Ibuprofen 100 mg/5 mL,"Relieves pain from cold, flu, sore throat, headache and toothache; 
+reduces fever.","NSAID may cause severe stomach bleeding; ibuprofen 
+may cause severe allergic reactions.","Relieves pain from cold, flu, headache, sore throat and toothache; reduces 
+fever. NSAIDs may cause stomach bleeding or allergic reactions.","relieving childhood pain; reducing fever; warning 
+about stomach bleeding; identifying allergy risks",fever; pain,Child (2–11),Liquids,0,1,1,0,0,0,0,0,0,R02; R03,Machine Predicted,Q9,6,0
+Pain and Fever,7,Children's Motrin,Pain; Fever,Child (2–11),Chewable tablet,National brand,Ibuprofen 100 mg,"Relieves pain from cold, flu, sore throat, headache and toothache; 
+reduces fever.","NSAID may cause severe stomach bleeding; NSAIDs may 
+increase cardiovascular risks.","Relieves childhood pain and fever. NSAIDs may cause stomach 
+bleeding and cardiovascular complications.","relieving childhood pain; reducing fever; warning 
+about stomach bleeding; highlighting cardiovascular risks",fever; pain,Child (2–11),Tablets and Caplets,0,1,1,0,0,0,0,0,0,R02; R03,"AI-Assisted, Human-Verified",Q9,7,0
+Pain and Fever,8,CVS Acetaminophen,Pain; Fever,Adult,Caplet,Store brand,Acetaminophen 500 mg,"Relieves common minor aches/pains including headache, backache, 
+arthritis, toothache, muscular aches and menstrual cramps; reduces 
+fever.","Severe liver damage possible with excessive use,
+ other acetaminophen drugs or heavy alcohol use;
+ may cause severe skin reactions.","Relieves headache, backache, arthritis pain, muscular aches, 
+toothache, menstrual cramps and fever. Excessive acetaminophen 
+use or combining products can cause liver damage; severe skin reactions may occur.","relieving multiple types of pain; reducing fever; 
+warning against excessive use; preventing ingredient overlap; 
+highlighting skin reactions",fever; pain,Adult,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,Machine Predicted,Q9,8,0
+Pain and Fever,9,Walgreens Ibuprofen 200,Pain; Fever,Adult/12+,Caplet,Store brand,Ibuprofen 200 mg,"Relieves headache, muscular aches, arthritis pain, toothache, 
+backache, cold-related pain and menstrual cramps; reduces fever.","NSAID may cause severe stomach bleeding; 
+may increase risk of heart attack, heart failure or stroke.","Relieves minor aches, pains and fever. NSAIDs may cause stomach 
+bleeding and cardiovascular complications.","relieving everyday pain; reducing fever; warning about 
+stomach bleeding; highlighting cardiovascular risks",fever; pain,Adult / 12+,Tablets and Caplets,0,1,1,0,0,0,0,0,0,R02; R03,Machine Predicted,Q9,9,0
+Pain and Fever,10,Equate Pain Reliever,Pain; Fever,Adult,Caplet,Store brand,Acetaminophen 500 mg,"Relieves common minor aches/pains including headache, 
+backache, arthritis, muscular aches, toothache and menstrual cramps; 
+reduces fever.","Severe liver damage possible with excessive 
+use or other acetaminophen-containing drugs; may 
+cause severe skin reactions.","Relieves minor aches, pains and fever. Excessive acetaminophen use or 
+combining products may cause liver damage; severe skin reactions may occur.","relieving everyday pain; reducing fever; warning 
+against excessive use; preventing ingredient overlap; highlighting skin reactions",fever; pain,Adult,Tablets and Caplets,1,0,0,0,0,1,0,0,0,R01; R06,"AI-Assisted, Human-Verified",Q9,10,0

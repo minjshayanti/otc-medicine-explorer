@@ -1,0 +1,20 @@
+query_id,need,query,rank,doc_id,product,document_text,relevance
+Q1,A person is looking for an over-the-counter medicine to relieve fever.,medicines for fever,7,211,Tums Smoothies Extra Strength,Tums Smoothies Extra Strength Relieves heartburn and acid indigestion. May interact with other medicines; do not exceed labeled daily limit.,0
+Q1,A person is looking for an over-the-counter medicine to relieve fever.,medicines for fever,9,105,Theraflu Daytime Severe Cold & Cough,"Theraflu Daytime Severe Cold & Cough Relieves cough, congestion and other cold symptoms. Verify actives; avoid overlapping acetaminophen and other cold medicines.",0
+Q4,A person wants a pain relief medicine available in capsule form rather than tablets/liquids.,pain reliever in form of capsules,9,38,Bufferin Aspirin,Bufferin Aspirin Relieves minor aches and fever. Aspirin may cause severe stomach bleeding; avoid use in children with viral illness.,0
+Q6,A person wants one OTC medicine that can relieve both pain and fever.,medicines for both pain and fever,8,70,Equate Nighttime Cold & Flu,"Equate Nighttime Cold & Flu Relieves cough, pain, fever, congestion, runny nose and sneezing. 
+Excessive acetaminophen use may cause liver damage; 
+alcohol and sedatives increase drowsiness.",1
+Q6,A person wants one OTC medicine that can relieve both pain and fever.,medicines for both pain and fever,10,62,Vicks NyQuil Cold & Flu LiquiCaps,"Vicks NyQuil Cold & Flu LiquiCaps Relieves cough, sore throat, pain, fever, runny nose and sneezing. 
+Excessive acetaminophen use may cause liver damage; alcohol and sedatives 
+increase drowsiness.",1
+Q7,A person wants to find safety warnings associated with OTC allergy medicines.,allergy safety warnings,8,172,Children’s Allegra Allergy Tablets,Children’s Allegra Allergy Tablets Relieves seasonal allergy symptoms. Follow age-specific directions; some fruit juices can reduce absorption.,1
+Q8,"A person has a high body temperature, muscle pain, and an itchy throat and wants medicine that addresses these symptoms.",treat body temperature and body pain and soothe throat,5,24,BC Original Powder,"BC Original Powder Headache and body aches. Aspirin may cause severe stomach bleeding; caffeine may cause nervousness or sleeplessness, and children or teens with viral illnesses should avoid aspirin.",0
+Q8,"A person has a high body temperature, muscle pain, and an itchy throat and wants medicine that addresses these symptoms.",treat body temperature and body pain and soothe throat,6,243,Neosporin Original,"Neosporin Original Helps prevent infection in minor cuts, scrapes and burns. For external use only; avoid eyes/large body areas and 
+seek medical advice for deep wounds, animal bites or serious burns.",0
+Q8,"A person has a high body temperature, muscle pain, and an itchy throat and wants medicine that addresses these symptoms.",treat body temperature and body pain and soothe throat,10,62,Vicks NyQuil Cold & Flu LiquiCaps,"Vicks NyQuil Cold & Flu LiquiCaps Relieves cough, sore throat, pain, fever, runny nose and sneezing. 
+Excessive acetaminophen use may cause liver damage; alcohol and sedatives 
+increase drowsiness.",1
+Q10,A person is experiencing itchy skin rashes and watery eyes and wants medicine that addresses both symptoms.,medicines for allergy,7,211,Tums Smoothies Extra Strength,Tums Smoothies Extra Strength Relieves heartburn and acid indigestion. May interact with other medicines; do not exceed labeled daily limit.,0
+Q10,A person is experiencing itchy skin rashes and watery eyes and wants medicine that addresses both symptoms.,medicines for allergy,8,105,Theraflu Daytime Severe Cold & Cough,"Theraflu Daytime Severe Cold & Cough Relieves cough, congestion and other cold symptoms. Verify actives; avoid overlapping acetaminophen and other cold medicines.",0
+Q10,A person is experiencing itchy skin rashes and watery eyes and wants medicine that addresses both symptoms.,medicines for allergy,10,231,TUMS Extra Strength 750,"TUMS Extra Strength 750 Relieves heartburn, acid indigestion and sour stomach. Follow maximum daily dose; antacids may interact with other medicines.",0
