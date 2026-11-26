@@ -157,11 +157,20 @@ filter_keys = [
     "source_filter"
 ]
 
+def reset_page():
+    st.session_state["results_page"] = 1
+
+
+def change_page(delta):
+    st.session_state["results_page"] += delta
+
+
 def reset_filters():
     for key in filter_keys:
         st.session_state[key] = []
 
     st.session_state["search_query"] = ""
+    reset_page()
 
 # ----------------------------------------
 # 7. SIDEBAR FACETS
@@ -182,7 +191,8 @@ st.sidebar.button(
 selected_groups = st.sidebar.multiselect(
     "Therapeutic group",
     sorted(df["Groups"].unique()),
-    key="group_filter"
+    key="group_filter",
+    on_change=reset_page
 )
 
 st.sidebar.divider()
@@ -196,25 +206,29 @@ all_uses = sorted({
 selected_uses = st.sidebar.multiselect(
     "Intended use",
     all_uses,
-    key="use_filter"
+    key="use_filter",
+    on_change=reset_page
 )
 
 selected_users = st.sidebar.multiselect(
     "Intended user",
     sorted(df["Intended User Standardized"].unique()),
-    key="user_filter"
+    key="user_filter",
+    on_change=reset_page
 )
 
 selected_forms = st.sidebar.multiselect(
     "Dosage form",
     sorted(df["Dosage Form Family"].unique()),
-    key="form_filter"
+    key="form_filter",
+    on_change=reset_page
 )
 
 selected_brands = st.sidebar.multiselect(
     "Brand type",
     sorted(df["Brand Type"].unique()),
-    key="brand_filter"
+    key="brand_filter",
+    on_change=reset_page
 )
 
 risk_options = [
@@ -226,6 +240,7 @@ selected_risks = st.sidebar.multiselect(
     "Documented safety risk",
     risk_options,
     key="risk_filter",
+    on_change=reset_page,
     help="Classified from selected warning excerpts."
 )
 
@@ -234,7 +249,8 @@ st.sidebar.divider()
 selected_sources = st.sidebar.multiselect(
     "Classification source",
     sorted(df["Classification_Source"].unique()),
-    key="source_filter"
+    key="source_filter",
+    on_change=reset_page
 )
 
 st.sidebar.caption(
@@ -248,7 +264,8 @@ st.sidebar.caption(
 query = st.text_input(
     "Search the medicine collection",
     placeholder="e.g. headache, fever, stomach bleeding",
-    key="search_query"
+    key="search_query",
+    on_change=reset_page
 )
 
 st.caption(
@@ -443,16 +460,22 @@ else:
     page_size = st.selectbox(
         "Results per page",
         [10, 20, 50],
-        index=0
+        index=0,
+        key="results_page_size",
+        on_change=reset_page
     )
 
     total_pages = int(
         np.ceil(len(filtered) / page_size)
     )
 
+    if not 1 <= st.session_state.get("results_page", 1) <= total_pages:
+        reset_page()
+
     page = st.selectbox(
         "Page",
-        list(range(1, total_pages + 1))
+        list(range(1, total_pages + 1)),
+        key="results_page"
     )
 
     start = (page - 1) * page_size
@@ -541,6 +564,36 @@ else:
                         "labels have not been "
                         "independently validated."
                     )
+
+    # Bottom pagination controls
+    st.divider()
+    previous_col, status_col, next_col = st.columns([1, 2, 1])
+
+    previous_col.button(
+        "← Previous Page",
+        key="previous_page",
+        disabled=page == 1,
+        on_click=change_page,
+        args=(-1,),
+        use_container_width=True
+    )
+
+    with status_col:
+        st.markdown(
+            f'<div style="text-align:center">Page {page} of {total_pages}'
+            f'<br><small>{start + 1}–{min(end, len(filtered))} '
+            f'of {len(filtered)} medicines</small></div>',
+            unsafe_allow_html=True
+        )
+
+    next_col.button(
+        "Next Page →",
+        key="next_page",
+        disabled=page == total_pages,
+        on_click=change_page,
+        args=(1,),
+        use_container_width=True
+    )
 
 # ----------------------------------------
 # 15. METHODOLOGY AND LIMITATIONS
