@@ -1,194 +1,181 @@
+# OTC Medicine Explorer
 
-# 💊 OTC Medicine Explorer
+**A Faceted Information Organization and Retrieval System for Over-the-Counter Medicines**
 
-### A Faceted Information Organization and Retrieval System
+UC Berkeley | INFO 202 Final Project | Fall 2026
 
-**UC Berkeley | School of Information | INFO 202 Final Project**
+## Live Application
 
-[Launch Live Application](https://otc-medicine-explorer.streamlit.app/)
-
----
+[Launch OTC Medicine Explorer](https://otc-medicine-explorer.streamlit.app/)
 
 ## Project Overview
 
-OTC Medicine Explorer is an interactive information organization and retrieval system designed to help users navigate a collection of 300 over-the-counter (OTC) medicines.
+OTC Medicine Explorer is an interactive information organization and retrieval system designed to help users explore a collection of 300 over-the-counter medicines through structured faceted navigation and BM25 keyword retrieval.
 
-Traditional keyword search can make it difficult to distinguish therapeutic uses, product characteristics, and documented safety warnings. This project explores how faceted classification, machine learning, and ranked text retrieval can complement one another to support structured information discovery.
+The project investigates how human-designed classification systems, machine learning, and text retrieval can complement one another while exposing limitations in information representation.
 
-## Key Features
+## Collection
 
-- Interactive faceted navigation
-- Multi-select filtering across five facets
-- Dynamic result counts and distribution charts
-- BM25-ranked keyword search
-- Expandable medicine information cards
-- Automatic multi-label risk classification
-- Transparent classification provenance
-- Publicly accessible web application
-
-## Dataset
-
-The collection contains 300 OTC medicine products organized into five therapeutic groups.
-
-| Therapeutic Group | Products |
-|---|---:|
-| Pain and Fever | 60 |
-| Cough Cold & Flu | 60 |
-| Allergy & Respiratory | 60 |
-| Digestive & Heartburn | 60 |
-| Skin & Topical | 60 |
-| **Total** | **300** |
-
-The final dataset contains 26 columns, including original product metadata, standardized facets, risk classifications, and classification provenance.
+| Attribute | Description |
+|---|---|
+| Total medicines | 300 |
+| Therapeutic groups | 5 |
+| Medicines per group | 60 |
+| AI-assisted, human-verified reference classifications | 200 |
+| Automatically classified medicines | 100 |
 
 ## Faceted Taxonomy
 
-| Facet | Classificatory Principle |
+| Facet | Classification principle |
 |---|---|
-| Intended Use | Therapeutic purpose |
-| Intended User | Documented target population |
+| Intended Use | Documented therapeutic purpose |
+| Intended User | Documented intended population |
 | Dosage Form | Standardized formulation family |
 | Brand Type | Brand classification |
 | Documented Safety Risk | Explicit adverse outcomes in selected warning texts |
 
-The browser uses OR logic within each facet and AND logic across different facets.
+The invented facet, Documented Safety Risk, organizes adverse outcomes into nine categories, including residual categories for other documented risks and unspecified risks.
 
-Therapeutic groups provide additional navigation, while classification provenance allows users to distinguish reference labels from machine predictions.
+The browser also supports filtering by therapeutic group and classification provenance.
 
-### Invented Facet: Documented Safety Risk
+## System Features
 
-This facet was developed to organize adverse outcomes documented in selected medication warning excerpts.
+- Interactive multi-facet filtering.
+- BM25 keyword search.
+- Combined keyword search and faceted navigation.
+- Dynamic result counts and distribution visualizations.
+- Product-level uses and selected warnings.
+- Transparent classification provenance.
+- Pagination and filter reset.
 
-| Code | Risk Category |
-|---|---|
-| R01 | Organ toxicity |
-| R02 | Bleeding |
-| R03 | Cardiovascular |
-| R04 | Allergic reactions |
-| R05 | Neurological and behavioral |
-| R06 | Skin and local tissue |
-| R07 | Gastrointestinal |
-| R08 | Other documented risk |
-| R09 | Risk not specified |
-
-The facet supports multi-label classification because a medicine may have multiple documented risks.
-
-R08 accommodates explicit adverse outcomes that do not fit the other defined categories.
-
-R09 is mutually exclusive with all specific risk categories. It indicates that no specific adverse outcome was coded or predicted from the selected warning excerpt, not that the medicine is risk-free.
-
-## Machine Learning
-
-A supervised multi-label classification pipeline was developed to scale the invented safety risk facet across the collection.
-
-### Classification Workflow
-
-1. Stratified sampling of 200 medicines.
-2. AI-assisted labeling with human verification.
-3. Grouped training and testing split to prevent exact normalized warning-text overlap.
-4. TF-IDF feature extraction using unigrams and bigrams.
-5. One-vs-Rest logistic regression.
-6. Held-out evaluation and baseline comparison.
-7. Classification error and learned feature analysis.
-8. Retraining on all 200 reference examples.
-9. Automatic classification of the remaining 100 medicines.
-
-### Model Performance
-
-The model was evaluated on 36 held-out medicines.
-
-| Evaluation Metric | Result |
-|---|---:|
-| Micro Precision | 88.89% |
-| Micro Recall | 90.91% |
-| Micro F1-score | 89.89% |
-| Macro F1-score (Supported Categories) | 86.75% |
-| Exact Match Accuracy | 83.33% |
-| Hamming Loss | 2.78% |
-
-### Baseline Comparison
-
-| Metric | Majority Baseline | Logistic Regression |
-|---|---:|---:|
-| Micro F1-score | 40.00% | 89.89% |
-| Exact Match Accuracy | 44.44% | 83.33% |
-| Hamming Loss | 14.81% | 2.78% |
-
-The final model was subsequently trained on all 200 reference classifications and applied to the remaining 100 medicines.
-
-### Classification Provenance
-
-- 200 AI-assisted, human-verified classifications
-- 100 automatically predicted classifications
-
-## Information Retrieval
-
-The application integrates BM25-ranked keyword search across product names and selected uses and warnings.
-
-BM25 parameters:
-
-- k1 = 1.2
-- b = 0.75
-
-An earlier retrieval experiment using the medicine collection evaluated 10 queries with 100 relevance judgments and achieved a mean Precision@10 of 0.51.
-
-Consistency between the earlier experimental implementation and the deployed browser remains to be verified.
-
-Faceted navigation complements keyword retrieval by allowing users to constrain results using structured product attributes.
+The interface applies OR logic within facets and AND logic across different facets.
 
 ## System Architecture
 
 ```text
-OTC Medicine Collection
+Raw OTC Medicine Dataset
           |
-          v
 Data Cleaning and Standardization
           |
-          v
-Faceted Taxonomy Development
+Faceted Taxonomy and Safety Risk Codebook
           |
-          v
-Reference Classification (200)
+Stratified Reference Sample (200)
           |
-          v
 TF-IDF + Logistic Regression
           |
-          v
 Automatic Classification (100)
           |
-          v
-Integrated Dataset (300)
+Final Classified Collection (300)
           |
-          v
-Faceted Filtering + BM25 Retrieval
-          |
-          v
-Streamlit Web Application
+    Streamlit Application
+       /           \
+Faceted Browsing   BM25 Retrieval
+       \           /
+    Retrieval Evaluation
 ```
 
-## Technology Stack
+## Automatic Classification
 
-| Component | Technology |
-|---|---|
-| Programming | Python |
-| Data Processing | Pandas, NumPy |
-| Machine Learning | Scikit-learn |
-| Text Representation | TF-IDF |
-| Information Retrieval | BM25 |
-| Application Framework | Streamlit |
-| Development Environment | Google Colab |
-| Version Control | GitHub |
-| Deployment | Streamlit Community Cloud |
+The Documented Safety Risk facet was extended to the remaining 100 medicines using multi-label classification with TF-IDF features and one-vs-rest logistic regression.
 
-## Repository Structure
+A grouped train-test split was used to prevent identical normalized warning texts from appearing in both training and testing sets.
+
+### Classification Performance
+
+| Metric | Baseline | Model |
+|---|---:|---:|
+| Micro-F1 | 40.00% | 89.89% |
+| Exact-match accuracy | 44.44% | 83.33% |
+| Hamming loss | 14.81% | 2.78% |
+
+The held-out evaluation included 36 medicines. The final model was subsequently trained on all 200 reference-classified medicines.
+
+## Information Retrieval Evaluation
+
+Ten information needs were evaluated using binary relevance judgments and Precision@10.
+
+| BM25 Implementation | Mean Precision@10 |
+|---|---:|
+| Original experimental implementation | 51% |
+| Browser implementation | 48% |
+
+### BM25 versus Faceted Browsing
+
+| Information Need | BM25 P@10 | Faceted Precision |
+|---|---:|---:|
+| Cough relief | 100% | 100% |
+| Pain relief in capsules | 20% | 100% |
+| Pain and fever | 90% | 100% |
+| Pain and stomach irritation | 0% | 0% |
+| Mean across four queries | 52.5% | 75% |
+
+The comparison is exploratory. Faceted precision uses the first ten displayed results, except for the capsule query, which returned six products.
+
+![Retrieval Performance](retrieval/OTC_BM25_vs_Faceted_Comparison.png)
+
+### Boolean Logic Investigation
+
+| Information Need | OR Results | AND Results |
+|---|---:|---:|
+| Pain and fever | 68 | 63 |
+| Pain and upset stomach | 71 | 0 |
+
+These experiments demonstrate that interface logic, taxonomy coverage, and collection composition influence retrieval effectiveness.
+
+## Repository Organization
 
 ```text
 otc-medicine-explorer/
-├── app.py
-├── requirements.txt
-├── OTC_Final_Classified_300.csv
-└── README.md
+|
+|-- app.py
+|-- requirements.txt
+|-- OTC_Final_Classified_300.csv
+|-- README.md
+|
+|-- data/
+|   Raw and standardized datasets
+|
+|-- docs/
+|   Faceted taxonomy, codebook and data dictionary
+|
+|-- notebooks/
+|   Data preparation, facet development,
+|   automatic classification and browser development
+|
+|-- classification/
+|   Reference labels and machine predictions
+|
+|-- evaluation/
+|   Classification metrics, held-out predictions,
+|   learned features and error analysis
+|
+|-- retrieval/
+|   Search queries, relevance judgments,
+|   retrieval experiments and visualizations
 ```
+
+## Documentation
+
+- [Faceted Taxonomy](docs/Faceted_Taxonomy.md)
+- [Safety Risk Codebook](docs/Safety_Risk_Codebook.md)
+- [Data Dictionary](docs/Data_Dictionary.md)
+- [Data Documentation](data/README.md)
+- [Development Notebooks](notebooks/README.md)
+- [Classification Documentation](classification/README.md)
+- [Classification Evaluation](evaluation/README.md)
+- [Retrieval Evaluation](retrieval/README.md)
+
+## Technology Stack
+
+- Python
+- Pandas and NumPy
+- Scikit-learn
+- TF-IDF and Logistic Regression
+- Rank-BM25
+- Streamlit
+- Google Colab
+- GitHub
+- Streamlit Community Cloud
 
 ## Run Locally
 
@@ -211,30 +198,25 @@ Launch the application:
 streamlit run app.py
 ```
 
-## Limitations and Responsible Use
+## Limitations and Ethical Considerations
 
-- The collection is limited to 300 selected OTC medicine products.
-- Selected warning excerpts do not represent complete medication labels.
-- Reference classifications were AI-assisted and human-verified rather than independently hand-coded.
-- Automatically predicted risk classifications have not been independently validated.
-- Gastrointestinal risk (R07) had no positive training examples and could not be learned.
-- Risk not specified (R09) does not indicate absence of risk.
-- Keyword retrieval may match safety warnings rather than therapeutic uses.
-- Intended-user categories are descriptive and do not establish medical eligibility.
-- The application is intended for educational and information organization purposes only.
+- The collection is not representative of the entire OTC medicine market.
+- Selected warning texts do not capture every documented medication risk.
+- Risk Not Specified indicates missing explicit adverse-outcome information, not medication safety.
+- Reference classifications were AI-assisted and human-verified.
+- Machine-generated classifications may contain errors.
+- One risk category had no positive reference examples and could not be learned.
+- Classification performance is based on a small held-out sample.
+- The retrieval comparison uses a limited number of information needs.
+- Additional BM25 relevance judgments underwent AI-assisted consistency review and human approval.
+- The taxonomy reflects classificatory decisions that may privilege some information needs while obscuring others.
 
-**This application does not provide medical advice or medication recommendations.**
-
-## Academic Context
-
-Developed as part of the INFO 202 course at the UC Berkeley School of Information.
-
-The project explores faceted classification, information organization, supervised machine learning, information retrieval, and the limitations of classification systems.
+This application is an educational information organization and retrieval system. It is not intended to provide medical advice, establish medication safety, or recommend treatment.
 
 ## Author
 
 Shayanti Minj
 
-Master of Information Management and Systems (MIMS)
+Master of Information Management and Systems
 
-University of California, Berkeley
+UC Berkeley School of Information
