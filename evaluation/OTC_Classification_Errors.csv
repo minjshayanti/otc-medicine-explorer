@@ -1,0 +1,7 @@
+Item,Groups,Product,Selected Warnings,Actual_Risks,Predicted_Risks,Missed_Risks,Extra_Risks
+15,Pain and Fever,Advil Dual Action with Acetaminophen,Ibuprofen may cause severe stomach bleeding or cardiovascular events; excessive acetaminophen may cause severe liver damage.,R01; R02; R03,R01; R02; R05,R03,R05
+35,Pain and Fever,Excedrin Tension Headache,Excess acetaminophen may cause liver damage; caffeine may cause nervousness.,R01; R05,R01; R02; R05,,R02
+45,Pain and Fever,ThermaCare HeatWraps Back Pain Therapy,May cause burns; avoid sleeping with wrap and follow age restrictions.,R06,R05,R06,R05
+99,Cough Cold & Flu,Vicks Sinex Severe Nasal Spray,Do not exceed labeled duration; prolonged use may worsen congestion.,R08,R09,R08,R09
+161,Allergy & Respiratory,Astepro Children's Allergy Nasal Spray,May cause drowsiness or bitter taste; follow age restrictions.,R05; R08,R05,R08,
+219,Digestive & Heartburn,Imodium Multi-Symptom Relief,Excess loperamide can cause serious heart problems; avoid use with bloody stool.,R03,R03; R08,,R08

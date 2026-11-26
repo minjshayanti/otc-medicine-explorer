@@ -1,0 +1,7 @@
+Metric,Score
+Micro Precision,0.8888888888888888
+Micro Recall,0.9090909090909091
+Micro F1-score,0.898876404494382
+Macro F1-score (Supported Categories),0.8675491175491175
+Exact Match Accuracy,0.8333333333333334
+Hamming Loss,0.027777777777777776

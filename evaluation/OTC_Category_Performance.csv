@@ -1,0 +1,10 @@
+Risk_Category,Precision,Recall,F1_Score,Support,True_Positives,False_Positives,False_Negatives
+R01_Organ_Toxicity,1.0,1.0,1.0,4,4,0,0
+R02_Bleeding,0.8571428571428571,1.0,0.9230769230769231,6,6,1,0
+R03_Cardiovascular,1.0,0.75,0.8571428571428571,4,3,0,1
+R04_Allergic_Reactions,1.0,1.0,1.0,1,1,0,0
+R05_Neurological_Behavioral,0.75,1.0,0.8571428571428571,6,6,2,0
+R06_Skin_Local_Tissue,1.0,0.5,0.6666666666666666,2,1,0,1
+R07_Gastrointestinal,,,,0,0,0,0
+R08_Other_Documented_Risk,0.75,0.6,0.6666666666666666,5,3,1,2
+R09_Risk_Not_Specified,0.9411764705882353,1.0,0.9696969696969697,16,16,1,0

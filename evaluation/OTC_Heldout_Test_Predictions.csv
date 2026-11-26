@@ -1,0 +1,40 @@
+Item,Product,Selected Warnings,Actual_R01_Organ_Toxicity,Predicted_R01_Organ_Toxicity,Actual_R02_Bleeding,Predicted_R02_Bleeding,Actual_R03_Cardiovascular,Predicted_R03_Cardiovascular,Actual_R04_Allergic_Reactions,Predicted_R04_Allergic_Reactions,Actual_R05_Neurological_Behavioral,Predicted_R05_Neurological_Behavioral,Actual_R06_Skin_Local_Tissue,Predicted_R06_Skin_Local_Tissue,Actual_R07_Gastrointestinal,Predicted_R07_Gastrointestinal,Actual_R08_Other_Documented_Risk,Predicted_R08_Other_Documented_Risk,Actual_R09_Risk_Not_Specified,Predicted_R09_Risk_Not_Specified,Exact_Match
+2,Advil,"NSAID may cause severe stomach bleeding; may increase risk of 
+heart attack, heart failure or stroke",0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,True
+7,Children's Motrin,"NSAID may cause severe stomach bleeding; NSAIDs may 
+increase cardiovascular risks.",0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,True
+12,Tylenol Regular Strength,Severe liver damage may occur with excessive use or when combined with other acetaminophen-containing medicines; severe skin reactions are possible.,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,True
+15,Advil Dual Action with Acetaminophen,Ibuprofen may cause severe stomach bleeding or cardiovascular events; excessive acetaminophen may cause severe liver damage.,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,False
+35,Excedrin Tension Headache,Excess acetaminophen may cause liver damage; caffeine may cause nervousness.,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,False
+38,Bufferin Aspirin,Aspirin may cause severe stomach bleeding; avoid use in children with viral illness.,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True
+45,ThermaCare HeatWraps Back Pain Therapy,May cause burns; avoid sleeping with wrap and follow age restrictions.,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,False
+51,Tylenol Dissolve Packs,Excessive acetaminophen or combining products containing it can cause severe liver damage.,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True
+53,Advil Junior Strength Chewables,NSAIDs can cause stomach bleeding or allergic reactions; follow pediatric dosing instructions.,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,True
+55,Bayer Aspirin 325 mg Enteric Coated,Aspirin may cause stomach bleeding; children and teenagers recovering from viral illness should not use it without medical advice.,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True
+71,Mucinex Extended-Release,"Consult a doctor if cough lasts more than one week, returns, or occurs with fever, rash or persistent headache.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+72,Mucinex Fast-Max Cold & Flu,"Avoid combining with other cold and flu medicines containing overlapping active ingredients; consult the specific label for liver, drowsiness or blood pressure warnings.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+76,Vicks VapoRub,"For external use only; do not place in nostrils or apply to damaged skin, and keep away from children.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+91,Robitussin Long-Acting CoughGels,Avoid MAOIs; consult clinician for persistent or chronic cough.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+98,Vicks NyQuil Cough,May cause marked drowsiness; avoid alcohol and MAOIs.,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,True
+99,Vicks Sinex Severe Nasal Spray,Do not exceed labeled duration; prolonged use may worsen congestion.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,False
+115,Vicks Sinex Severe Ultra Fine Mist,Do not use beyond the labeled number of days because congestion may recur or worsen.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,True
+117,Halls Relief Mentho-Lyptus Cough Drops,Use only as directed; lozenges pose a choking hazard for young children.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,True
+118,Cepacol Sore Throat & Cough Lozenges,Benzocaine may cause rare serious blood-related reactions; follow age restrictions.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,True
+121,Claritin 24 Hour Allergy,"Ask a doctor if you have liver or kidney disease; taking more 
+than directed may cause drowsiness.",0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,True
+161,Astepro Children's Allergy Nasal Spray,May cause drowsiness or bitter taste; follow age restrictions.,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,False
+171,Children’s Claritin Chewables,Follow age-specific dosing; seek medical advice for younger children.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+177,Zyrtec-D 12 Hour Extended Release,May cause drowsiness or sleeplessness; use caution with high blood pressure.,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,True
+199,Pepcid AC Original Strength,Consult a doctor before use if you have kidney disease; do not exceed recommended dosing.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+200,Gas-X Extra Strength,Do not exceed labeled doses; consult a doctor if symptoms persist or worsen.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+201,Phazyme Maximum Strength,Do not exceed labeled doses; consult a doctor if symptoms persist or worsen.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+205,Colace Regular Strength,"Consult a doctor if constipation persists or is accompanied by abdominal pain, nausea or vomiting.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+219,Imodium Multi-Symptom Relief,Excess loperamide can cause serious heart problems; avoid use with bloody stool.,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,False
+229,Dramamine Less Drowsy,May cause drowsiness; avoid alcohol and hazardous activities.,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,True
+231,TUMS Extra Strength 750,Follow maximum daily dose; antacids may interact with other medicines.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+233,Prilosec OTC Wildberry,Not intended for immediate relief; follow the labeled treatment course.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+234,Nexium 24HR ClearMinis,Not for immediate relief; follow treatment duration and medical consultation instructions.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+267,Compound W Fast Acting Gel,Do not apply to irritated or healthy surrounding skin; consult a doctor before use if you have diabetes or poor circulation.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+275,Calmoseptine Ointment,External use only; avoid deep wounds and eyes.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+294,Cortizone-10 Maximum Strength Easy Relief Applicator,Avoid prolonged use or use on infected skin unless directed by a clinician.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True
+295,Lotrimin AF Antifungal Powder,For external use only; complete the labeled treatment course.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,True

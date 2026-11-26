@@ -1,0 +1,71 @@
+Risk_Category,Rank,Feature,Coefficient
+R01_Organ_Toxicity,1,acetaminophen,2.0380553010117737
+R01_Organ_Toxicity,2,damage,1.986337423727179
+R01_Organ_Toxicity,3,liver,1.6905476817244829
+R01_Organ_Toxicity,4,liver damage,1.621121339514331
+R01_Organ_Toxicity,5,severe liver,1.15312426134835
+R01_Organ_Toxicity,6,severe,1.0851697827740616
+R01_Organ_Toxicity,7,acetaminophen may,1.0274985640835048
+R01_Organ_Toxicity,8,excessive,0.8890949352202043
+R01_Organ_Toxicity,9,cause severe,0.8767029050998536
+R01_Organ_Toxicity,10,excessive acetaminophen,0.8211994943620833
+R02_Bleeding,1,bleeding,1.9203258500824751
+R02_Bleeding,2,stomach bleeding,1.5592208551059448
+R02_Bleeding,3,stomach,1.5592208551059448
+R02_Bleeding,4,cause stomach,1.1884065717364602
+R02_Bleeding,5,may cause,1.1656912086255327
+R02_Bleeding,6,nsaid,1.0455924195466202
+R02_Bleeding,7,may,1.0212478678741563
+R02_Bleeding,8,cause,0.9937502827875039
+R02_Bleeding,9,aspirin,0.8458813476313453
+R02_Bleeding,10,nasal,0.8392708367494781
+R03_Cardiovascular,1,heart,1.5122692951046535
+R03_Cardiovascular,2,may increase,1.2013092980411137
+R03_Cardiovascular,3,blood pressure,1.1990060361277095
+R03_Cardiovascular,4,pressure,1.1990060361277095
+R03_Cardiovascular,5,pressure or,1.1740425056104724
+R03_Cardiovascular,6,increase,1.1557597905142338
+R03_Cardiovascular,7,blood,1.1473752946838522
+R03_Cardiovascular,8,pseudoephedrine,0.9101164483136618
+R03_Cardiovascular,9,pseudoephedrine may,0.9101164483136618
+R03_Cardiovascular,10,nsaid may,0.9079321589145485
+R04_Allergic_Reactions,1,allergic,1.737189065974236
+R04_Allergic_Reactions,2,appropriate,1.115472370167057
+R04_Allergic_Reactions,3,use age,1.115472370167057
+R04_Allergic_Reactions,4,age appropriate,1.115472370167057
+R04_Allergic_Reactions,5,severe allergic,1.115472370167057
+R04_Allergic_Reactions,6,appropriate dosing,1.115472370167057
+R04_Allergic_Reactions,7,allergic reactions,1.115472370167057
+R04_Allergic_Reactions,8,or severe,1.115472370167057
+R04_Allergic_Reactions,9,bleeding or,1.0170747817748529
+R04_Allergic_Reactions,10,reactions use,1.0131730233713512
+R05_Neurological_Behavioral,1,drowsiness,2.189005664350669
+R05_Neurological_Behavioral,2,may cause,1.5803666711193085
+R05_Neurological_Behavioral,3,cause,1.5513351080593252
+R05_Neurological_Behavioral,4,may,1.423045490427848
+R05_Neurological_Behavioral,5,cause drowsiness,1.417715048281539
+R05_Neurological_Behavioral,6,marked drowsiness,0.8457351294824248
+R05_Neurological_Behavioral,7,marked,0.8457351294824248
+R05_Neurological_Behavioral,8,nervousness,0.7868622858388068
+R05_Neurological_Behavioral,9,cause nervousness,0.7868622858388068
+R05_Neurological_Behavioral,10,alcohol,0.7351078368994143
+R06_Skin_Local_Tissue,1,irritation,2.1287101864151867
+R06_Skin_Local_Tissue,2,if,1.1936610292419487
+R06_Skin_Local_Tissue,3,if irritation,1.171614057996643
+R06_Skin_Local_Tissue,4,develops,1.1002836556843667
+R06_Skin_Local_Tissue,5,irritation develops,0.8763580951225132
+R06_Skin_Local_Tissue,6,stop,0.8518627940185179
+R06_Skin_Local_Tissue,7,stop use,0.8518627940185179
+R06_Skin_Local_Tissue,8,nasal,0.8417779652584642
+R06_Skin_Local_Tissue,9,nosebleeds,0.8241343187259236
+R06_Skin_Local_Tissue,10,nasal irritation,0.8241343187259236
+R08_Other_Documented_Risk,1,choking,0.9082842882311603
+R08_Other_Documented_Risk,2,exceed recommended,0.7867343622817344
+R08_Other_Documented_Risk,3,recommended,0.7867343622817344
+R08_Other_Documented_Risk,4,reye syndrome,0.7555164458399027
+R08_Other_Documented_Risk,5,syndrome,0.7555164458399027
+R08_Other_Documented_Risk,6,reye,0.7555164458399027
+R08_Other_Documented_Risk,7,risk,0.7533804382301061
+R08_Other_Documented_Risk,8,choking risk,0.715684989816751
+R08_Other_Documented_Risk,9,water,0.6918208116369465
+R08_Other_Documented_Risk,10,can cause,0.6485456161270614
